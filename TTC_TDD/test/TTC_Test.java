@@ -45,6 +45,20 @@ class TTC_Test {
 					
 					assertEquals(expectedResult,actualResult);
 				}
+				
+				//Requirement 4
+				@Test
+				public void testMoreThan1Trip()
+				{
+					TTC emad = new TTC();
+					double expectedResult = 5.50;
+					String[] arrayInputFrom = new String[] {"Finch"};
+					String[] arrayInputTo = new String[] {"Don Mills"};
+					
+					double actualResult = emad.calculateTotal(arrayInputFrom, arrayInputTo);
+					
+					assertEquals(expectedResult,actualResult);
+				}	
 	
 	
 
