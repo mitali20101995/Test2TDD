@@ -18,5 +18,21 @@ class TTC_Test {
 		assertEquals(expectedResult,actualResult);
 	}
 	
+	//Requirement 2
+		@Test
+		public void testOneWayTripZone2()
+		{
+			TTC emad = new TTC();
+			double expectedResult = 3.00;
+			String[] arrayInputFrom = new String[] {"Sheppard"};
+			String[] arrayInputTo = new String[] {"Finch"};
+			
+			double actualResult = emad.calculateTotal(arrayInputFrom, arrayInputTo);
+			
+			assertEquals(expectedResult,actualResult);
+		}
+	
+	
+	
 
 }
