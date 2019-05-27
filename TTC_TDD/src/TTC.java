@@ -21,6 +21,11 @@ public class TTC {
 			totalCost = 3.00;
 		}
 		
+		else if(f == "Finch" && t == "Sheppard")
+		{
+			totalCost = 3.00;
+		}
+		
 		
 		return totalCost;
 	}
