@@ -6,6 +6,8 @@ public class TTC {
 		String f = from[0];
 		String t = to[0];
 		double totalCost = 0.0;
+		
+		//Zone1
 		if(f == "Leslie" && t == "Don Mills")
 		{
 			totalCost = 2.50;
@@ -16,6 +18,7 @@ public class TTC {
 			totalCost = 2.50;
 		}
 		
+		//Zone2
 		else if(f == "Sheppard" && t == "Finch")
 		{
 			totalCost = 3.00;
@@ -26,6 +29,11 @@ public class TTC {
 			totalCost = 3.00;
 		}
 		
+		//between zones
+		else if(f == "Don Mills" && t == "Finch")
+		{
+			totalCost = 3.00;
+		}
 		
 		return totalCost;
 	}
