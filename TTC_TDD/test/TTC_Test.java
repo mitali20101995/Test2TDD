@@ -8,12 +8,12 @@ class TTC_Test {
 	@Test
 	public void testOneWayTripZone1()
 	{
-		TTC t = new TTC();
+		TTC emad = new TTC();
 		double expectedResult = 2.50;
-		String[] arrayInputFrom = new String[] {"Leslie"};
-		String[] arrayInputTo = new String[] {"Don Mills"};
+		String[] arrayInputFrom = new String[] {"Don Mills"};
+		String[] arrayInputTo = new String[] {"Leslie"};
 		
-		double actualResult = t.calculateTotal(arrayInputFrom, arrayInputTo);
+		double actualResult = emad.calculateTotal(arrayInputFrom, arrayInputTo);
 		
 		assertEquals(expectedResult,actualResult);
 	}
