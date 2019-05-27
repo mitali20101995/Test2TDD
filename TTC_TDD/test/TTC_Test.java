@@ -38,7 +38,7 @@ class TTC_Test {
 				{
 					TTC emad = new TTC();
 					double expectedResult = 3.00;
-					String[] arrayInputFrom = new String[] {"Don Mills"};
+					String[] arrayInputFrom = new String[] {"Leslie"};
 					String[] arrayInputTo = new String[] {"Finch"};
 					
 					double actualResult = emad.calculateTotal(arrayInputFrom, arrayInputTo);

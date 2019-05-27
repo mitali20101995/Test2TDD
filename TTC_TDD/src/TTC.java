@@ -30,7 +30,12 @@ public class TTC {
 		}
 		
 		//between zones
-		else if(f == "Don Mills" && t == "Finch")
+		else if((f == "Don Mills" || f == "Leslie") && (t == "Finch" || t == "Sheppard"))
+		{
+			totalCost = 3.00;
+		}
+		
+		else if((t == "Don Mills" || t == "Leslie") && (f == "Finch" || f == "Sheppard"))
 		{
 			totalCost = 3.00;
 		}
